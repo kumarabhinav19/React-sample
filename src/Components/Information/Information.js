@@ -22,7 +22,6 @@ let apicall= ()=>{
     axios
         .post("/shorten?url="+state.url,state.url)
         .then((response) =>{
-            console.log(response)
             let copyData =[...state.data]
              copyData.push(response.data.result)
             setstate((ps)=>({
