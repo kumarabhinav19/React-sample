@@ -89,7 +89,7 @@ export default function Maininfo() {
         <Wapper >
         <Left>
         <Heading>
-                More than just<br/>shorter links
+                More than just<br/>prod shorter links
             </Heading>
             <Para>Build your brand's recognition and get detailed insights on how your links are performing.</Para>
             <Button>Get Started</Button>
